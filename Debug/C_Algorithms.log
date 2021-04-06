@@ -1,0 +1,5 @@
+﻿  C_Algorithms.c
+D:\Projects\C\C_Algorithms\C_Algorithms.c(62,10): warning C4098: weightIndex: функция типа "void", возвращающая значение
+D:\Projects\C\C_Algorithms\C_Algorithms.c(79,10): warning C4098: maxOf4digits: функция типа "void", возвращающая значение
+D:\Projects\C\C_Algorithms\C_Algorithms.c(114,10): warning C4098: seasons: функция типа "void", возвращающая значение
+  C_Algorithms.vcxproj -> D:\Projects\C\C_Algorithms\Debug\C_Algorithms.exe
