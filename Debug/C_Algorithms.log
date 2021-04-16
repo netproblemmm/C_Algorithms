@@ -1,5 +1,9 @@
 ﻿  C_Algorithms.c
 D:\Projects\C\C_Algorithms\C_Algorithms.c(62,10): warning C4098: weightIndex: функция типа "void", возвращающая значение
 D:\Projects\C\C_Algorithms\C_Algorithms.c(79,10): warning C4098: maxOf4digits: функция типа "void", возвращающая значение
-D:\Projects\C\C_Algorithms\C_Algorithms.c(114,10): warning C4098: seasons: функция типа "void", возвращающая значение
+D:\Projects\C\C_Algorithms\C_Algorithms.c(93,69): warning C4047: функция: "char" отличается по уровням косвенного обращения от "char [30]"
+D:\Projects\C\C_Algorithms\C_Algorithms.c(93,20): warning C4024: userInput: различные типы для формального и фактического параметров 1
+D:\Projects\C\C_Algorithms\C_Algorithms.c(116,10): warning C4098: seasons: функция типа "void", возвращающая значение
+D:\Projects\C\C_Algorithms\C_Algorithms.c(122,17): warning C4047: функция: "const char *const " отличается по уровням косвенного обращения от "char"
+D:\Projects\C\C_Algorithms\C_Algorithms.c(122,10): warning C4024: printf: различные типы для формального и фактического параметров 1
   C_Algorithms.vcxproj -> D:\Projects\C\C_Algorithms\Debug\C_Algorithms.exe

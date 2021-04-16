@@ -82,13 +82,15 @@ void maxOf4digits() {
 void seasons() {
 	int month = 0;
 
-	do {
-		printf("Введите номер месяца (1-12): ");
-		while (scanf_s("%i", &month) != 1) {
-			printf("Неверный символ!");
-			while (getchar() != '\n');
-		}
-	} while (month < 1 || month > 12);
+	//do {
+	//	printf("Введите номер месяца (1-12): ");
+	//	while (scanf_s("%i", &month) != 1) {
+	//		printf("Неверный символ!");
+	//		while (getchar() != '\n');
+	//	}
+	//} while (month < 1 || month > 12);
+
+	month = userInput("Введите номер месяца (1-12): ", 1, 12);
 
 	switch (month) {
 	case 12:
@@ -113,3 +115,17 @@ void seasons() {
 	}
 	return 0;
 }
+
+int userInput(char message, int minDigit, int maxDigit) {
+	int digit;
+	do {
+		printf(message);
+		while (scanf_s("%i", &digit) != 1) {
+			printf("Неверный символ!");
+			while (getchar() != '\n');
+		}
+	} while (digit < minDigit || digit > maxDigit);
+
+	return digit;
+}
+
