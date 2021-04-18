@@ -18,5 +18,11 @@
     <ClCompile Include="C_Algorithms.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="..\Hw_4_1 Routes\Hw_4_1 Routes.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HW_4_2 LCS\HW_4_2 LCS.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

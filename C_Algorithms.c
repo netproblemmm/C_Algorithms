@@ -6,6 +6,9 @@ void menu();
 void weightIndex();
 void maxOf4digits();
 void seasons();
+void Routes();
+void LCS();
+
 int userInput(char message, int minDigit, int maxDigit);
 
 int main(int argc, char* argv[])
@@ -29,11 +32,15 @@ int main(int argc, char* argv[])
 		case 3:
 			seasons();
 			break;
+		case 4:
+			Routes();
+		case 5:
+			LCS();
 		case 0:
 			printf("До свидания!");
 			break;
 		default:
-			printf("Выберите 0-3\n");
+			printf("Выберите 0-5\n");
 		}
 	} while (selector != 0);
 	return 0;
@@ -43,6 +50,8 @@ void menu() {
 	printf("1 - Индекс массы тела\n");
 	printf("2 - Максимальное из 4 цифр\n");
 	printf("3 - Название времени года\n");
+	printf("4 - Маршруты\n");
+	printf("5 - LCS\n");
 	printf("0 - Выход\n");
 }
 
